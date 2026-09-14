@@ -30,7 +30,8 @@ uploaded = st.file_uploader("Upload a left-hand X-ray image", type=["png", "jpg"
 
 if uploaded is not None:
     img = Image.open(uploaded).convert("RGB")
-    st.image(img, caption="Uploaded X-ray", use_container_width=True)
+    # Fixed: Changed use_container_width=True to use_column_width=True to avoid Streamlit runtime TypeError
+    st.image(img, caption="Uploaded X-ray", use_column_width=True)
 
     if not looks_like_hand_xray(img):
         st.warning(
