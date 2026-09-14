@@ -1,0 +1,10 @@
+{
+  "img_size": 224,
+  "color_mode": "RGB",
+  "target_scale_months": 240.0,
+  "random_seed": 42,
+  "output_unit": "months",
+  "uses_sex_input": false,
+  "preprocessing_function": "tf.keras.applications.mobilenet_v2.preprocess_input",
+  "tensorflow_version": "2.21.0"
+}

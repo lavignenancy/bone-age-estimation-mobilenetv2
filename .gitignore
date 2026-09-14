@@ -1,0 +1,10 @@
+boneage-training-dataset/
+boneage-test-dataset/
+boneage-training-dataset.csv
+boneage-test-dataset.csv
+myenv/
+__pycache__/
+.ipynb_checkpoints/
+.agents/
+.claude/
+*.h5
