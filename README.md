@@ -3,7 +3,8 @@
 **Medical Imaging ML Project**
 
 > **This is a student coursework prototype, not a medical device.** It has not been clinically validated or reviewed by a radiologist. Never use it to make a real decision about a real person's health.
-> Streamlit UI: https://bone-age-estimation-mobilenetv2-slkpuavwjs9on7bppgpaqb.streamlit.app/
+
+Streamlit UI: https://bone-age-estimation-mobilenetv2-slkpuavwjs9on7bppgpaqb.streamlit.app/
 
 ## Project purpose
 
